@@ -2495,7 +2495,7 @@ transition:1s;
   font-size: 18px;
   cursor: pointer;
   position: relative;
-  left: 100px;
+  left: 00px;
   top: 10px;
   margin-top: 0px;
   padding: 15px;
@@ -3145,7 +3145,6 @@ border-radius: 50%;
   transition: .5s;
   margin: 20px;
   display: flex;
-  box-shadow : 0px 0px 55px 5px rgba(0, 0, 0, .1);
 } 
 
 
@@ -3249,7 +3248,7 @@ color: #6e8b9b;
 letter-spacing: -1px;
 width: fit-content;
 font-weight: 600;
-transition: 1s;
+transition: 0.2s;
 }
 
 .card-info .head-info div a:hover{
@@ -3258,40 +3257,161 @@ transition: 1s;
 }
 
 /*-------------------------UBICACION-------------------------*/
-.faa{
-  color: #5c1350;
-  font-size: 6rem;
-  padding:30px;
-  transition: 1s;
+.sect-gallery{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+
+.gallery{
+  width: 80%;
+  height: 1000px;
+  margin: 0px 50px 50px 50px;
   
-.faa:hover{
-    transform: scale(1.2);
-    z-index: 2;
-  }
-
-.main-containers2{
-     margin-left: 130px;
-     text-align: center;
-     margin-right: 130px;
-     border-radius: 5px;
- }
-
-iframe{
-  padding: 2px;
-  position: relative ;
-   width: 800px;
-   height: 500px;
-   box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
-   border-radius: 8px;
-}
-.iframe-display{
-  padding-top: 30px;
-  padding-bottom: 100px;
 }
 
+.gallery-content{
+  width: 400px;
+  height: 300px;
+  border-left: #14435c solid 10px;
+  position: relative;
+  bottom: -100px;
+  left: 100px;
+}
 
+.gallery-content h3{
+  margin: 20px 0px 20px 20px;
+  font-size: 40px;
+}
+
+.gallery-content p{
+  margin-left: 20px;
+  
+}
+
+.gallery-content-2{
+  width: 500px;
+  height: 300px;
+  position: relative;
+  bottom: 650px;
+  left: 900px;
+}
+
+.gallery-content-2 h3{
+  margin: 20px 0px 20px 20px;
+  font-size: 40px;
+}
+
+.gallery-content-2 p{
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.gallery-content-2 a{
+  margin-left: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: solid 2px  #14435c;
+  color: #14435c;
+  font-size: 19px;
+  letter-spacing: -1px;
+  padding-bottom: 5px;
+  transition: 0.2s;
+}
+
+.gallery-content-2 a:hover{
+  color: #2c7aa3;
+  border-bottom: solid 2px  #2c7aa3;
+
+}
+
+.image-1 img{
+  width: 500px;
+  position: relative;
+  left: 900px;
+  bottom: 100px;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: white;
+}
+
+.image-2 img{
+  width: 300px;
+  position: relative;
+  left: 700px;
+  bottom: 600px;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: white;
+}
+
+.image-3 img{
+  width: 300px;
+  position: relative;
+  left: 450px;
+  bottom: 500px;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: white;
+}
+
+.gallery .circle-1{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: #193e52;
+  border-radius: 50%;
+  left: 600px;
+  top: -1350px;
+  z-index: -1;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.gallery .circle-2{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #325669;
+  border-radius: 50%;
+  left: 1290px;
+  top: -1520px;
+  z-index: -1;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.gallery .circle-3{
+  position: relative;
+  width: 280px;
+  height: 280px;
+  background-color: #355d74;
+  border-radius: 50%;
+  left: 400px;
+  top: -1780px;
+  z-index: -1;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.gallery .circle-4{
+  position: relative;
+  width: 280px;
+  height: 280px;
+  background-color: #245874;
+  border-radius: 50%;
+  left: 900px;
+  top: -2400px;
+  z-index: -1;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+
+}
 /*----------FOOTER ----------*/
+footer{
+  position: relative;
+  bottom: 0%;
+}
+
 .pie-pagina{
   width: 100%;
   height: 220px;
