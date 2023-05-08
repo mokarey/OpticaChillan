@@ -3259,47 +3259,105 @@ transition: 0.2s;
 /*-------------------------UBICACION-------------------------*/
 .sect-gallery{
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  height: 1000px;
+  overflow: hidden;
 }
 
 .gallery{
-  width: 80%;
-  height: 1000px;
-  margin: 0px 50px 50px 50px;
-  
+  display: flex;
+  position: relative;
+  left: 200px ;
 }
 
-.gallery-content{
-  width: 400px;
-  height: 300px;
-  border-left: #14435c solid 10px;
+.gallery .gallery-content{
   position: relative;
-  bottom: -100px;
-  left: 100px;
+  left: 250px;
 }
 
 .gallery-content h3{
-  margin: 20px 0px 20px 20px;
-  font-size: 40px;
+  margin: 20px 0px 50px 20px;
+
 }
 
 .gallery-content p{
   margin-left: 20px;
-  
+  width: 400px;
+
+}
+
+.gallery-content .flex{
+  display: flex;
+}
+
+.gallery-content img{
+  width: 500px;
+  position: relative;
+  left: 00px;
+  bottom: 00px;
+  border-radius: 2px;
+  padding: 2px;
+  background-color: white;
+}
+
+.image-2 img{
+  width: 250px;
+  position: relative;
+  left: 00px;
+  bottom: 00px;
+  border-radius: 2px;
+  padding: 2px;
+  background-color: white;
+}
+
+.image-3 img{
+  width: 250px;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  border-radius: 2px;
+  padding: 2px;
+  background-color: white;
+}
+
+.gallery-content .feedback{
+  background-color: #305064;
+  width: 850px;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gallery-content .feedback p{
+  width: 700px;
+  color: #ffffff;
+  font-size: 20px;
+  font-style: oblique;
+  align-self: center;
+
+}
+
+.gallery-content .feedback img{
+  width: 60px;
+  background-color: transparent;
+  align-self: center;
+  color: #ffffff;
 }
 
 .gallery-content-2{
   width: 500px;
   height: 300px;
   position: relative;
-  bottom: 650px;
-  left: 900px;
+  left: -600px;
+  top: -10px;
 }
 
 .gallery-content-2 h3{
-  margin: 20px 0px 20px 20px;
-  font-size: 40px;
+  margin: 0px 0px 20px 20px;
+  font-size: 70px;
+  font-weight: 200;
 }
 
 .gallery-content-2 p{
@@ -3307,11 +3365,16 @@ transition: 0.2s;
   font-size: 18px;
 }
 
+.gallery-content-2 .p{
+  font-weight: 600;
+  color: #6d6d6d;
+}
+
 .gallery-content-2 a{
   margin-left: 20px;
   font-size: 18px;
   text-decoration: none;
-  border-bottom: solid 2px  #14435c;
+  border-bottom: solid 2px  #1d5b7c;
   color: #14435c;
   font-size: 19px;
   letter-spacing: -1px;
@@ -3325,86 +3388,30 @@ transition: 0.2s;
 
 }
 
-.image-1 img{
-  width: 500px;
+.gallery-content-3{
+  width: 348px;
+  height: 385px;
   position: relative;
-  left: 900px;
-  bottom: 100px;
-  border-radius: 2px;
-  padding: 5px;
-  background-color: white;
+  left: -600px;
+  top: -10px;
+  background-color: #c9c9c9;
+  
 }
 
-.image-2 img{
-  width: 300px;
-  position: relative;
-  left: 700px;
-  bottom: 600px;
-  border-radius: 2px;
-  padding: 5px;
-  background-color: white;
+.gallery-content-3 h3{
+  margin: 20px 0px 0px 10px;
+  font-size: 30px;
+  font-weight: 200;
 }
 
-.image-3 img{
-  width: 300px;
-  position: relative;
-  left: 450px;
-  bottom: 500px;
-  border-radius: 2px;
-  padding: 5px;
-  background-color: white;
+.gallery-content-3 p{
+  margin-left: 20px;
+  font-size: 18px;
 }
 
-.gallery .circle-1{
-  position: relative;
-  width: 400px;
-  height: 400px;
-  background-color: #193e52;
-  border-radius: 50%;
-  left: 600px;
-  top: -1350px;
-  z-index: -1;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
-
-}
-
-.gallery .circle-2{
-  position: relative;
-  width: 200px;
-  height: 200px;
-  background-color: #325669;
-  border-radius: 50%;
-  left: 1290px;
-  top: -1520px;
-  z-index: -1;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
-
-}
-
-.gallery .circle-3{
-  position: relative;
-  width: 280px;
-  height: 280px;
-  background-color: #355d74;
-  border-radius: 50%;
-  left: 400px;
-  top: -1780px;
-  z-index: -1;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
-
-}
-
-.gallery .circle-4{
-  position: relative;
-  width: 280px;
-  height: 280px;
-  background-color: #245874;
-  border-radius: 50%;
-  left: 900px;
-  top: -2400px;
-  z-index: -1;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
-
+.gallery-content-3 .p{
+  font-weight: 600;
+  color: #6d6d6d;
 }
 /*----------FOOTER ----------*/
 footer{
