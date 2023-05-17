@@ -1435,7 +1435,7 @@ transition:1s;
   
   .navbar img{
     width: 200px;
-    margin-right: 20px;
+    margin-left: 100px;
   }
   
     .navbar div{
@@ -1545,7 +1545,7 @@ transition:1s;
      font-size: 15px;
      cursor: pointer;
      position: relative;
-     left: 100px;
+     left: 00px;
      top: 10px;
      margin-top: 0px;
      padding: 12px;
@@ -2861,7 +2861,7 @@ transition:1s;
 
 .navbar img{
   width: 250px;
-  margin-right: 20px;
+  margin-left: 200px;
 }
 
   .navbar div{
@@ -4280,7 +4280,7 @@ transition:1s;
   
   .navbar img{
     width: 250px;
-    margin-right: 20px;
+    margin-left: 200px;
   }
   
     .navbar div{
@@ -4395,7 +4395,7 @@ transition:1s;
     font-size: 18px;
     cursor: pointer;
     position: relative;
-    left: 100px;
+    left: 00px;
     top: 10px;
     margin-top: 0px;
     padding: 15px;
