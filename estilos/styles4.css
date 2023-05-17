@@ -46,7 +46,7 @@
       cursor: pointer;
       outline: none;
       font-weight: 400;
-      margin: 10px 10px 10px 10px;
+      margin: 20px 10px 10px 10px;
     }
     .navbar button > a{
       opacity: 1;
