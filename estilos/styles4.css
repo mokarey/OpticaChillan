@@ -2709,7 +2709,6 @@ transition:1s;
 
 @media (min-width:1630px) and (max-width:1980px){
   /*           NAV            */
-
   .navbar{
   display: flex;
 }
@@ -3778,7 +3777,7 @@ transition: 0.2s;
 .gallery-content-3{
   position: relative;
   left: 170px;
-  top: 80px;
+  top: 100px;
   width: 800px;
   height: 650px;
 }
@@ -3817,7 +3816,7 @@ transition: 0.2s;
 }
 
 .gallery-content-3 .flex .bloque:hover{
-  transform: translateY(-10px);
+  transform: translateY(-5px);
   box-shadow: 0px 10px 25px -5px hsla(224, 100%, 65%, 0.2);
   background-color: rgb(247, 247, 247);
 }
@@ -3891,6 +3890,74 @@ footer{
   color: #95c9e9;
 }
 
+.grupo-2 {
+  background-color: #14232c;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+}
+.grupo-2 small {
+  font-size: 15px;
+}
+
+
+.body {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+}
+
+.body header h1 {
+  margin: 25px 10px 10px 10px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.body header button a:hover {
+  color: #141b58;
+}
+.body main .card-section {
+  display: flex;
+  justify-content: center;
+}
+.body main .card-section .box-sizing {
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  border-radius: 0px;
+  margin: 100px;
+  width: 1000px;
+  height: 100%;
+  background-color: #ececec;
+  transition: 0.5s;
+}
+.body main .card-section .box-sizing img {
+  width: 600px;
+  margin: 100px 80px 100px 50px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  transition: 1s;
+}
+.body main .card-section .box-sizing img:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+}
+.body main .card-section .box-sizing .text {
+  margin: 20px 120px 50px 0px;
+}
+.body main .card-section .box-sizing .text h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.body main .card-section .box-sizing .text p b {
+  font-size: 14px;
+}
+.body main .card-section .box-sizing:hover {
+  transform: translateY(-20px);
+  background-color: #f5f5f5;
+}
 
 }
 
@@ -4973,7 +5040,7 @@ footer{
   .gallery-content-3{
     position: relative;
     left: 170px;
-    top: 80px;
+    top: 100px;
     width: 800px;
     height: 650px;
   }
@@ -5012,7 +5079,7 @@ footer{
   }
   
   .gallery-content-3 .flex .bloque:hover{
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: 0px 10px 25px -5px hsla(224, 100%, 65%, 0.2);
     background-color: rgb(247, 247, 247);
   }
