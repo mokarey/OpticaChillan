@@ -1219,6 +1219,103 @@ margin: 30px 50px 0px 20px;
   font-size: 15px;
 }
 
+.body {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+}
+
+.body header button a:hover {
+  color: #141b58;
+}
+.body main .card-section {
+  display: flex;
+  justify-content: center;
+}
+
+.body main .card-section .box-sizing .text h1{
+  color: #061c5c;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+.body main .card-section .box-sizing .text p{
+  letter-spacing: 1px;
+  margin: 15px 0px 15px 0px;
+  font-size: 15px;
+  width: 300px;
+}
+
+.body main .card-section .box-sizing .text p b{
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.body main .card-section .box-sizing .text ul li{
+  position: relative;
+  left: -20px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #0b3f5c;
+  list-style: none;
+  margin: 5px 0px 5px 0px;
+  font-size: 14px;
+}
+
+.body main .card-section .box-sizing .text div{
+    margin: 10px 0px 15px 0px;
+    padding: 5px 10px 5px 20px;
+    font-size: 18px;
+    background-color: #e9e9e9;
+    border-left: #628ba1 5px solid;
+    transition: 1s;
+    font-weight: 400;
+    font-style: oblique;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.body main .card-section .box-sizing .text div p{
+  width: 290px;
+}
+
+.body main .card-section .box-sizing .text div:hover{
+  transform: scale(1.03);
+  background-color: #e4e4e4;
+  border-left: #2c5469 5px solid;
+
+}
+
+.body main .card-section .box-sizing {
+  box-shadow: 0 0 20px 5px rgba(97, 97, 97, 0.1);
+  display: flex;
+  border-radius: 0px;
+  margin: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: #ececec;
+  transition: 0.5s;
+}
+.body main .card-section .box-sizing img {
+  width: 0px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.body main .card-section .box-sizing img:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+}
+.body main .card-section .box-sizing .text {
+  margin: 20px 0px 50px 0px;
+}
+
+.body main .card-section .box-sizing:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
 }
 
 
@@ -2668,6 +2765,101 @@ margin: 30px 50px 0px 20px;
 .card-services:hover .contact-services{
 color: #5c1350;
 transition:1s;
+}
+
+.body {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+}
+
+.body header button a:hover {
+  color: #141b58;
+}
+.body main .card-section {
+  display: flex;
+  justify-content: center;
+}
+
+.body main .card-section .box-sizing .text h1{
+  color: #061c5c;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-size: 35px;
+}
+
+.body main .card-section .box-sizing .text p{
+  letter-spacing: 1px;
+  margin: 15px 0px 15px 0px;
+  font-size: 16px;
+  width: 600px;
+}
+
+.body main .card-section .box-sizing .text p b{
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.body main .card-section .box-sizing .text ul li{
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #0b3f5c;
+  list-style: none;
+  margin: 5px 0px 5px 0px;
+  font-size: 17px;
+}
+
+.body main .card-section .box-sizing .text div{
+    margin: 10px 0px 15px 0px;
+    padding: 5px 10px 5px 20px;
+    font-size: 18px;
+    background-color: #e9e9e9;
+    border-left: #628ba1 5px solid;
+    transition: 1s;
+    font-weight: 400;
+    font-style: oblique;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.body main .card-section .box-sizing .text div:hover{
+  transform: scale(1.03);
+  background-color: #e4e4e4;
+  border-left: #2c5469 5px solid;
+
+}
+
+
+.body main .card-section .box-sizing {
+  box-shadow: 0 0 20px 5px rgba(97, 97, 97, 0.1);
+  display: flex;
+  border-radius: 0px;
+  margin: 100px;
+  width: 1000px;
+  height: 100%;
+  background-color: #ececec;
+  transition: 0.5s;
+}
+.body main .card-section .box-sizing img {
+  width: 0px;
+  margin: 50px 40px 50px 0px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.body main .card-section .box-sizing img:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+}
+.body main .card-section .box-sizing .text {
+  margin: 20px 50px 50px 50px;
+}
+.body main .card-section .box-sizing .text h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.body main .card-section .box-sizing:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
 }
 }
 
